@@ -1,0 +1,17 @@
+# The NERDTree plugin settings
+execute pathogen#infect()
+# Open file and show tree on left side
+autocmd vimenter * NERDTree
+# Open vim with no file and show tree by default
+autocmd vimenter * if !argc() | NERDTree | endif
+
+# Simple settings
+syntax on
+filetype plugin indent on
+set cursorline
+set relativenumber
+set laststatus=2
+set ruler
+set showmatch
+set showmode
+
