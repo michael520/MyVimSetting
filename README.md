@@ -12,4 +12,4 @@ Using plugins
     - pathogen.vim <https://github.com/tpope/vim-pathogen>
     - sensible.vim <https://github.com/tpope/vim-sensible>
 
-
+Remember rename the "dot_vimrc" to ".vimrc" and put in the your home dir . 
